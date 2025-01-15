@@ -42,7 +42,7 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
 
 4.  Training
    The model was trained using the following settings:
-     - Optimizer: Adam with a learning rate of 0.0005
+        - Optimizer: Adam with a learning rate of 0.0005
         - Loss Function: Sparse categorical cross-entropy
         - Metrics: Accuracy
         - Batch Size: 64
@@ -52,13 +52,13 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
             - Model Checkpoint: Saves the best model based on validation accuracy.
 
     Additionally, data augmentation was applied to the training images:
-        - Rotation: Random rotations up to 20 degrees
-        - Width & Height Shift: Random shifts by up to 20%
-        - Zoom: Random zoom by up to 20%
-        - Horizontal Flip: Random horizontal flipping
+     - Rotation: Random rotations up to 20 degrees
+     - Width & Height Shift: Random shifts by up to 20%
+     - Zoom: Random zoom by up to 20%.
+     - Horizontal Flip: Random horizontal flipping
 
 6.  Results
-        The model achieved a test accuracy of approximately X% on the Fashion MNIST test set (this value can be determined after running the model). After training, the model's performance was plotted for both training and validation accuracy, as well as training and validation loss.
+   The model achieved a test accuracy of approximately X% on the Fashion MNIST test set (this value can be determined after running the model). After training, the model's performance was plotted for both training and validation accuracy, as well as training and validation loss.
 
     # Example of Predictions:
         Below is an example of predictions on test images:
