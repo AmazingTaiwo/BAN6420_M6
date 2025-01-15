@@ -1,5 +1,5 @@
 # BAN6420_M6
-#Module 6 Assignment: Fashion MNIST Classification
+# Module 6 Assignment: Fashion MNIST Classification
 
 BAN6420: Programming in R & Python
 BAN6420 - Module 6 Assignment
