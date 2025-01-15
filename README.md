@@ -7,7 +7,7 @@ Here's a README.md file that explains the steps and details of the project:
 This project aims to build a Convolutional Neural Network (CNN) to classify images from the Fashion MNIST dataset. The Fashion MNIST dataset consists of 60,000 28x28 grayscale images of 10 different clothing categories, such as t-shirts, trousers, dresses, and more. This model uses various techniques like data augmentation, batch normalization, dropout, and early stopping to optimize the performance of the model.
 
  Table of Contents
-    1. Setup
+  1. Setup
     2. Model Architecture
     3. Training
     4. Results
