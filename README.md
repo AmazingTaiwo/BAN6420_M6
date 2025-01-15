@@ -1,7 +1,10 @@
 # BAN6420_M6
-Module 6 Assignment: Fashion MNIST Classification
-Here's a README.md file that explains the steps and details of the project:
+#Module 6 Assignment: Fashion MNIST Classification
 
+BAN6420: Programming in R & Python
+BAN6420 - Module 6 Assignment
+Student Name: Taiwo Babalola
+Learner ID: 162894
 
 # Fashion MNIST CNN Model
 This project aims to build a Convolutional Neural Network (CNN) to classify images from the Fashion MNIST dataset. The Fashion MNIST dataset consists of 60,000 28x28 grayscale images of 10 different clothing categories, such as t-shirts, trousers, dresses, and more. This model uses various techniques like data augmentation, batch normalization, dropout, and early stopping to optimize the performance of the model.
