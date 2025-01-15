@@ -74,6 +74,10 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
             - Predicted: Trouser
             - Actual: Trouser
 
-# How to Use:
-    1.  Run the script ban6420_m6_3.py to train and evaluate the model on cmd or python IDE or R studio
+# How to Use(Python Script):
+    1.  Run the script ban6420_m6_3.py to train and evaluate the model on cmd or python IDE.
     2.  This will will automatically load the Fashion MNIST dataset, apply data augmentation, and train the CNN model.
+# How to use (Rscript):
+      - Open Rstudio
+      - Run the script ban6420_m6_rstudio.R to train and evaluate the model using Rstudio.
+      - This will will automatically load the Fashion MNIST dataset, apply data augmentation, and train the CNN model.
