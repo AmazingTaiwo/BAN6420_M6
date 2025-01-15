@@ -31,19 +31,18 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
 
     The model consists of the following layers:
     - Convolutional Layer 1: 32 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
-        2. Max Pooling Layer 1: Pooling size of (2, 2).
-        3. Convolutional Layer 2: 64 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
-        4. Max Pooling Layer 2: Pooling size of (2, 2).
-        5. Convolutional Layer 3: 128 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
-        6. Dropout Layer: Dropout rate of 40% to reduce over-fitting.
-        7. Flatten Layer: To flatten the output from the convolutional layers.
-        8. Fully Connected Layer: 128 neurons with ReLU activation and batch normalization.
-        9. Output Layer: 10 neurons for the 10 classes of Fashion MNIST, using a softmax activation function.
+    - Max Pooling Layer 1: Pooling size of (2, 2).
+    - Convolutional Layer 2: 64 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
+    - Max Pooling Layer 2: Pooling size of (2, 2).
+    - Convolutional Layer 3: 128 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
+    - Dropout Layer: Dropout rate of 40% to reduce over-fitting.
+    - Flatten Layer: To flatten the output from the convolutional layers.
+    - Fully Connected Layer: 128 neurons with ReLU activation and batch normalization.
+    - Output Layer: 10 neurons for the 10 classes of Fashion MNIST, using a softmax activation function.
 
 4.  Training
-
-    The model was trained using the following settings:
-        - Optimizer: Adam with a learning rate of 0.0005
+   The model was trained using the following settings:
+     - Optimizer: Adam with a learning rate of 0.0005
         - Loss Function: Sparse categorical cross-entropy
         - Metrics: Accuracy
         - Batch Size: 64
@@ -58,7 +57,7 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
         - Zoom: Random zoom by up to 20%
         - Horizontal Flip: Random horizontal flipping
 
-5.  Results
+6.  Results
         The model achieved a test accuracy of approximately X% on the Fashion MNIST test set (this value can be determined after running the model). After training, the model's performance was plotted for both training and validation accuracy, as well as training and validation loss.
 
     # Example of Predictions:
