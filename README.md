@@ -30,7 +30,7 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
         - keras
      You can also install the libraries individually if you prefer.
 
-3.  Model Architecture
+2.  Model Architecture
    The model consists of the following layers:
     - Convolutional Layer 1: 32 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
     - Max Pooling Layer 1: Pooling size of (2, 2).
@@ -42,7 +42,7 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
     - Fully Connected Layer: 128 neurons with ReLU activation and batch normalization.
     - Output Layer: 10 neurons for the 10 classes of Fashion MNIST, using a softmax activation function.
 
-4.  Training
+3.  Training
    The model was trained using the following settings:
         - Optimizer: Adam with a learning rate of 0.0005
         - Loss Function: Sparse categorical cross-entropy
@@ -59,7 +59,7 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
      - Zoom: Random zoom by up to 20%.
      - Horizontal Flip: Random horizontal flipping
 
-6.  Results
+4.  Results
    The model achieved a test accuracy of approximately X% on the Fashion MNIST test set (this value can be determined after running the model). After training, the model's performance was plotted for both training and validation accuracy, as well as training and validation loss.
 
     # Example of Predictions:
