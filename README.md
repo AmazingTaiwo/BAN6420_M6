@@ -17,21 +17,20 @@ This project aims to build a Convolutional Neural Network (CNN) to classify imag
  1. Setup
      - Clone this repository to your local machine.
         git clone https://github.com/AmazingTaiwo/BAN6420_M6.git
-    - Install the required Python libraries.
+     - Install the required Python libraries.
         pip install -r requirements.txt
    
         The requirements.txt file includes:
-            - tensorflow
-            - numpy
-            - matplotlib
-            - keras
-
-    You can also install the libraries individually if you prefer.
+        - tensorflow
+        - numpy
+        - matplotlib
+        - keras
+     You can also install the libraries individually if you prefer.
 
 3.  Model Architecture
 
     The model consists of the following layers:
-        1. Convolutional Layer 1: 32 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
+    - Convolutional Layer 1: 32 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
         2. Max Pooling Layer 1: Pooling size of (2, 2).
         3. Convolutional Layer 2: 64 filters with a kernel size of (3, 3), ReLU activation, and batch normalization.
         4. Max Pooling Layer 2: Pooling size of (2, 2).
